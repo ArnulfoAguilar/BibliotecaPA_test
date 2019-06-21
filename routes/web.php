@@ -25,3 +25,4 @@ Route::group(['middleware' => 'auth'], function () {
 });
 Route::name('nuevoLibro')->get('/nuevoLibro','EjemplarController@create');
 Route::name('guardarLibro')->post('/guardarLibro', 'EjemplarController@store');
+Route::name('VencimientoPrestamo')->get('/VencimientoPrestamo','NotificacionesBibliotecaController@VencimientoPrestamo');
