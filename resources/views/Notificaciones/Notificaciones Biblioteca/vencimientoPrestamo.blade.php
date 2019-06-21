@@ -177,12 +177,12 @@
                                                                     <tr>
                                                                         <td valign="top" align="center" class="specbundle"><div class="contentEditableContainer contentTextEditable">
                                                                                 <div class="contentEditable">
-                                                                                    <p style='text-align:center;margin:0;font-family:Georgia,Time,sans-serif;font-size:26px;color:#222222;'><span class="specbundle2"><span class="font1">Welcome to&nbsp;</span></span></p>
+                                                                                    <p style='text-align:center;margin:0;font-family:Georgia,Time,sans-serif;font-size:26px;color:#222222;'><span class="specbundle2"><span class="font1">Bienvenido a &nbsp;</span></span></p>
                                                                                 </div>
                                                                             </div></td>
                                                                         <td valign="top" class="specbundle"><div class="contentEditableContainer contentTextEditable">
                                                                                 <div class="contentEditable">
-                                                                                    <p style='text-align:center;margin:0;font-family:Georgia,Time,sans-serif;font-size:26px;color:#DC2828;'><span class="font">Arnulfo Prueba!!</span> </p>
+                                                                                    <p style='text-align:center;margin:0;font-family:Georgia,Time,sans-serif;font-size:26px;color:#DC2828;'><span class="font">Kevin Posada Prueba!!</span> </p>
                                                                                 </div>
                                                                             </div></td>
                                                                     </tr>
