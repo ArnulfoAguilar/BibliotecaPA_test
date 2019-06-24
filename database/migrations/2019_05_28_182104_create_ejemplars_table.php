@@ -13,13 +13,20 @@ class CreateEjemplarsTable extends Migration
      */
     public function up()
     {
-        Schema::create('ejemplars', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->bigInteger('isbn');
-            $table->string('nombre');
-            $table->string('autor');
-            $table->string('descripcion');
-            $table->binary('portada');
+        Schema::create('Ejemplares', function (Blueprint $table) {
+            $table->bigIncrements('ID_EJEMPLAR');
+            $table->bigInteger('ISBN');
+            $table->string('EJEMPLAR');
+            $table->string('AUTOR');
+            $table->binary('PORTADA');
+            $table->string('DESCRIPCION');
+            $table->string('PALABRAS_CLAVE');
+            $table->integer('NUMERO_PAGINAS');
+            $table->integer('NUMERO_COPIAS');
+            $table->unsignedInteger('ID_AUTOR');
+            $table->foreign('ID_AUTOR')->references('ID_AUTOR')->on('Autores')->onDelete('restrict')->onUpdate('restrict');
+            $table->unsignedInteger('ID_CATEGORIA');
+            $table->foreign('ID_CATEGORIA')->references('ID_CATEGORIA')->on('categoria_Libros')->onDelete('restrict')->onUpdate('restrict');
             $table->timestamps();
         });
     }

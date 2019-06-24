@@ -7,6 +7,8 @@ use Illuminate\Database\Eloquent\Model;
 class ejemplar extends Model
 {
     protected $fillable = [
-        nombre, isbn, author, portada, descripcion
+        ISBN, EJEMPLAR, AUTOR, PORTADA,
+        DESCRIPCION, PALABRAS_CLAVE,NUMERO_PAGINAS,
+        NUMERO_COPIAS, ID_AUTOR, ID_CATEGORIA
         ];
 }
